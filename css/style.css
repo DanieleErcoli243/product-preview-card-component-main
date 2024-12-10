@@ -48,6 +48,8 @@ main {
 
     .card-body{
         padding: 1em;
+
+        /* tag */
         
         .tag,
         p{
@@ -57,9 +59,13 @@ main {
             margin: 0.5em 0;
         }
 
+        /* title */
+
         h1{
             font-family: "Fraunces", serif;
         }
+
+        /* prices */
 
         .prices{
             margin: 1em 0 0.5em 0;
@@ -77,6 +83,28 @@ main {
                 margin-left: 1em;
             }
         }
+
+        /* button */
+
+        button {
+            padding: 1em 0;
+            width: 100%;
+            border-radius: 10px;
+            border: none;
+            background-color: hsl(158, 36%, 37%);
+            color: hsl(0, 0%, 100%);
+
+            i {
+                vertical-align: middle;
+            }
+
+            span{
+                margin-left: 1em;
+                font-family: "Montserrat", serif;
+            }
+        }
+
+
     }
 
 
