@@ -118,6 +118,10 @@ main {
             }
         }
 
+        button:hover {
+            background-color: hsl(212, 21%, 14%);
+        }
+
 
     }
 
