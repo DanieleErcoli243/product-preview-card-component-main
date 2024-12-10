@@ -11,12 +11,22 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
-
+    
 }
 
 main {
     height: 100vh;
 
+}
+
+/* utili */
+
+.line-height {
+    line-height: 1.5;
+}
+
+.font-size {
+    font-size: 14px;
 }
 
 /* container */
@@ -47,16 +57,17 @@ main {
     /* card body */
 
     .card-body{
-        padding: 1em;
+        padding: 1.5em;
 
         /* tag */
         
-        .tag,
+        h3,
         p{
             font-family: "Montserrat", serif;
             font-weight: normal;
             color: hsl(228, 12%, 48%);
             margin: 0.5em 0;
+            text-align: left;
         }
 
         /* title */
