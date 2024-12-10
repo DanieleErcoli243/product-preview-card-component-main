@@ -45,13 +45,16 @@ main {
     border-radius: 10px;
     
     figure{
+        .mobile-img {
         max-width: 100%;
-        background-image: url(../images/image-product-mobile.jpg);
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: 250px;
+        height: auto;
         border-radius: 10px 10px 0 0;
+        }
+
+        .desktop-img {
+            display: none;
+        }
+
     }
 
     /* card body */
@@ -119,4 +122,46 @@ main {
     }
 
 
+}
+
+/* responsive */
+
+@media screen and (min-width: 576px) {
+    .container {
+        max-width: 450px;
+        margin: 0 auto;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .container {
+        max-width: 550px;
+        margin: 0 auto;
+
+        .card {
+            display: flex;
+            
+            .card-body{
+
+                flex-basis: 50%;
+            }
+
+            figure {
+
+                flex-basis: 50%;
+
+                .mobile-img {
+                    display: none;
+                }
+
+                .desktop-img {
+                    display: block;
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 10px 0 0 10px;
+                }
+                
+            }
+        }
+    }
 }
