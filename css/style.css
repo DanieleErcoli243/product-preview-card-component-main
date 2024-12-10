@@ -60,6 +60,23 @@ main {
         h1{
             font-family: "Fraunces", serif;
         }
+
+        .prices{
+            margin: 1em 0 0.5em 0;
+
+            .green {
+                font-family: "Fraunces", serif;
+                font-size: 2em;
+                font-weight: bold;
+                color: hsl(158, 36%, 37%);        
+            }
+
+            .line-through {
+                text-decoration: line-through;
+                color: hsl(228, 12%, 48%);
+                margin-left: 1em;
+            }
+        }
     }
 
 
