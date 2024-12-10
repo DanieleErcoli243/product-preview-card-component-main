@@ -33,6 +33,7 @@ main {
 .card{
     background-color: hsl(0, 0%, 100%);
     border-radius: 10px;
+    
     figure{
         max-width: 100%;
         background-image: url(../images/image-product-mobile.jpg);
@@ -40,6 +41,26 @@ main {
         background-size: cover;
         background-repeat: no-repeat;
         height: 250px;
-        border-radius: 10px;
+        border-radius: 10px 10px 0 0;
     }
+
+    /* card body */
+
+    .card-body{
+        padding: 1em;
+        
+        .tag,
+        p{
+            font-family: "Montserrat", serif;
+            font-weight: normal;
+            color: hsl(228, 12%, 48%);
+            margin: 0.5em 0;
+        }
+
+        h1{
+            font-family: "Fraunces", serif;
+        }
+    }
+
+
 }
