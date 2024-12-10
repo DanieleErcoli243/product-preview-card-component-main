@@ -25,3 +25,17 @@ main {
     max-width: 350px;
     margin: 0 auto;
 }
+
+.card{
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 10px;
+    figure{
+        max-width: 100%;
+        background-image: url(../images/image-product-mobile.jpg);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 250px;
+
+    }
+}
